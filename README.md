@@ -1,0 +1,1 @@
+dotnet aspnet-codegenerator controller -name UserController -m User -dc UserContext -outDir Controllers --referenceScriptLibraries
