@@ -1,8 +1,8 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using livepl.Models;
+using Livepl.Models;
 
-namespace livepl.Controllers;
+namespace Livepl.Controllers;
 
 public class HomeController : Controller
 {

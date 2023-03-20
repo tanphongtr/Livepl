@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/phongtran/Repositories/DotNet/livepl/livepl.csproj": {}
+    "/Users/phongtran/Repositories/DotNet/Livepl/Livepl.csproj": {}
   },
   "projects": {
-    "/Users/phongtran/Repositories/DotNet/livepl/livepl.csproj": {
+    "/Users/phongtran/Repositories/DotNet/Livepl/Livepl.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/phongtran/Repositories/DotNet/livepl/livepl.csproj",
-        "projectName": "livepl",
-        "projectPath": "/Users/phongtran/Repositories/DotNet/livepl/livepl.csproj",
+        "projectUniqueName": "/Users/phongtran/Repositories/DotNet/Livepl/Livepl.csproj",
+        "projectName": "Livepl",
+        "projectPath": "/Users/phongtran/Repositories/DotNet/Livepl/Livepl.csproj",
         "packagesPath": "/Users/phongtran/.nuget/packages/",
-        "outputPath": "/Users/phongtran/Repositories/DotNet/livepl/obj/",
+        "outputPath": "/Users/phongtran/Repositories/DotNet/Livepl/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/phongtran/.nuget/NuGet/NuGet.Config"
@@ -38,21 +38,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[7.0.4, )"
-            },
             "Microsoft.EntityFrameworkCore.Design": {
               "target": "Package",
               "version": "[7.0.4, )"
-            },
-            "Pomelo.EntityFrameworkCore.MySql": {
-              "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.2.3, )"
             }
           },
           "imports": [

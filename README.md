@@ -1,1 +1,3 @@
-dotnet aspnet-codegenerator controller -name UserController -m User -dc UserContext -outDir Controllers --referenceScriptLibraries
+❯ dotnet add package Microsoft.EntityFrameworkCore.Design
+
+❯ dotnet new gitignore

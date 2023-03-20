@@ -1,4 +1,4 @@
-namespace livepl.Models;
+namespace Livepl.Models;
 
 public class ErrorViewModel
 {
