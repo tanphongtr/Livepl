@@ -11,7 +11,7 @@ using livepl.DbContext;
 namespace livepl.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20230319190052_AddUser")]
+    [Migration("20230320112743_AddUser")]
     partial class AddUser
     {
         /// <inheritdoc />
@@ -27,6 +27,9 @@ namespace livepl.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime(6)");
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -47,6 +50,13 @@ namespace livepl.Migrations
                         .HasColumnType("datetime(6)");
 
                     b.Property<string>("Token")
+                        .HasColumnType("longtext");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<string>("Username")
+                        .IsRequired()
                         .HasColumnType("longtext");
 
                     b.HasKey("Id");

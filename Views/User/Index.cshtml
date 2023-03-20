@@ -13,6 +13,8 @@
       <th scope="col">#</th>
       <th scope="col">Name</th>
       <th scope="col">Email</th>
+      <th scope="col">Joined</th>
+      <th scope="col">Last Updated</th>
       <th scope="col">Action</th>
     </tr>
   </thead>
@@ -23,6 +25,8 @@
             <th scope="row">@user.Id</th>
             <td><a href="/User/Details/@user.Id">@user.Name</a></td>
             <td>@user.Email</td>
+            <td>@user.CreatedAt.ToString("dd/MM/yyyy")</td>
+            <td>@user.UpdatedAt.ToString("dd/MM/yyyy")</td>
             <td>
                 <form action="/User/Delete" method="post">
                     <input type="hidden" name="id" value="@user.Id" />

@@ -11,7 +11,7 @@ namespace livepl.DbContext
 
             // write code using the optionsBuilder to configure the database using mysql
 
-            optionsBuilder.UseMySql("server=localhost;database=livepl2;user=root;password=amBc7juC;port=4612", new MySqlServerVersion(new Version(8, 0, 25)));
+            optionsBuilder.UseMySql("server=localhost;database=livepl5;user=root;password=amBc7juC;port=4612", new MySqlServerVersion(new Version(8, 0, 25)));
         }
 
         public DbSet<User> Users { get; set; }
