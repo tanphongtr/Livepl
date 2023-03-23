@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YDQLZXiArshU/qSzRMckcxOvKvQhkYAbRoDzlSIBqihKdskyfweJeEReFVXNkmlflr3TG263f99UI65XLspePw==",
+  "dgSpecHash": "L2WzPFMLyukCDCFRD23tgGcefLhySVHn7OuSGGYWPVJrUcx+qZyRbQq4PzztcAvFbYVktPah4zIhYspCVefSSA==",
   "success": true,
   "projectFilePath": "/Users/phongtran/Repositories/DotNet/Livepl/Livepl.csproj",
   "expectedPackageFiles": [
@@ -21,6 +21,8 @@
     "/Users/phongtran/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
     "/Users/phongtran/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "/Users/phongtran/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
+    "/Users/phongtran/.nuget/packages/mysqlconnector/2.2.5/mysqlconnector.2.2.5.nupkg.sha512",
+    "/Users/phongtran/.nuget/packages/pomelo.entityframeworkcore.mysql/7.0.0/pomelo.entityframeworkcore.mysql.7.0.0.nupkg.sha512",
     "/Users/phongtran/.nuget/packages/system.codedom/4.4.0/system.codedom.4.4.0.nupkg.sha512",
     "/Users/phongtran/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
     "/Users/phongtran/.nuget/packages/system.text.json/7.0.0/system.text.json.7.0.0.nupkg.sha512"
